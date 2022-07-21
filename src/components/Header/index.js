@@ -10,8 +10,8 @@ function Header(props) {
 			<Row className="p-0">
 				<Col className="text-center p-0" md={12}>
 				<div className="jumbotron-fluid mt-2">
-					<h2 className="display-2 mb-0 pb-0">Cam Karasiuk</h2>
-					<p className="lead pt-0 mt-0">Full Stack Developer</p>
+					<h2 className="display-2 mb-0 pb-0">Cam's Code</h2>
+					<p className="lead pt-0 mt-0">Full Stack Development</p>
 					</div>
 				</Col>
 				<header>

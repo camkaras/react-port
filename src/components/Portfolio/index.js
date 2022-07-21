@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col, CardGroup } from "react-bootstrap";
-import portfolioProjects from "";
-import Project from "";
+import portfolioProjects from "../../projects";
+import Project from "../Project";
 
 function Portfolio() {
 	return (
