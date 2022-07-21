@@ -19,7 +19,6 @@ function About() {
 						className="img-fluid rounded-circle"
 					/>
 				</Col>
-
 				<Col xs={12} sm={6} md={6} className="text-center my-auto" id="about">
 					<p>
 						My name is Cameron Karasiuk, and I have over 5 years of

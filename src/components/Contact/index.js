@@ -9,7 +9,6 @@ function Contact() {
 	const [message, setMessage] = useState('');
 	const [welcomeMessage, setWelcomeMessage] = useState('');
 	const [error, setError] = useState('');
-
 	const handleInputChange = (e) => {
 		const { target } = e;
 		const inputType = target.name;
@@ -72,7 +71,6 @@ function Contact() {
 							<Form.Label htmlFor="message">Message</Form.Label>
 							<Form.Control onChange={handleInputChange} as="textarea" rows={3} required name="message" value={message} />
 						</Form.Group>
-
 						<Button variant="primary" type="submit" onClick={handleFormSubmit}>Submit</Button>
 					</Form>
 					{error && (

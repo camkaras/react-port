@@ -10,7 +10,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab } from "@fortawesome/free-brands-svg-icons";
 import "./App.css";
-
 library.add(fab);
 
 function App() {
@@ -30,7 +29,6 @@ function App() {
 				return null;
 		}
 	};
-
 	return (
 		<div>
 			<Container fluid className="p-0">

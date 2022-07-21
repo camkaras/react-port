@@ -9,7 +9,6 @@ function Navigation(props) {
 			<Navbar collapseOnSelect bg="dark" variant="dark" className="px-2 p-sm-0" id="navbar-collapse-id" expand="lg" fill activekey={currentTab} justified>
 				<Container>
 					<Navbar.Toggle aria-controls="responsive-navbar-nav px-3 px-sm-1 px-md-0" />
-
 					<Navbar.Collapse id="responsive-navbar-nav">
 						<Nav activeKey={currentTab} onSelect={setCurrentTab} className="px-3 px-sm-1 px-md-0">
 							<Nav.Item>
