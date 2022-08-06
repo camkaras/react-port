@@ -19,6 +19,13 @@ const portfolioProjects = [
         image: "2.jpg",
         technologies: ["Node.js", "Express", "Heroku", "JavaScript", "HTML5", "Responsive Web Design"],
         github: "https://github.com/camkaras/Team-Profile-Gen",
+    },
+    {
+        name: "Watz-Cook'N",
+        description: "Watz-Cooki'N is an awesome new app to help you find your favourite recipes.",
+        image: "2.jpg",
+        technologies: ["Node.js", "Express", "Heroku", "JavaScript", "HTML5", "React"],
+        github: "https://github.com/elsartz/watz-cook-n",
     }
 ]
 
